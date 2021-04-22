@@ -1,0 +1,49 @@
+#contact .btn-contact {
+  color: white;
+  border-radius: 20px;
+  background-color: transparent;
+  width: 190px;
+  border: 1px solid white;
+}
+
+#contact .btn-face:hover, .btn-face:focus {
+  background-color: #4267B2;
+  border: 1px solid black;
+}
+
+#contact .btn-phone:hover, .btn-phone:focus {
+  background-color: white;
+  border: 1px solid black;
+}
+
+#contact .btn-whats:hover, .btn-whats:focus {
+  background-color: #25D366;
+  border: 1px solid black;
+}
+
+#contact .btn-phone:hover span, .btn-phone:focus span {
+  color: black;
+}
+
+#contact .btn-phone:hover i, .btn-phone:focus i {
+  color: black;
+}
+
+@media (max-width: 370px) {
+  .masthead .intro-body .brand-heading {
+    font-size: 23px;
+    font-family: Cairo, sans-serif;
+    margin-top: 15px;
+    color: rgb(255,255,255);
+  }
+}
+
+@media (min-width: 700px) {
+  .masthead .intro-body .brand-heading {
+    font-size: 40px !important;
+    font-family: Cairo, sans-serif;
+    margin-top: 15px;
+    color: rgb(255,255,255);
+  }
+}
+
